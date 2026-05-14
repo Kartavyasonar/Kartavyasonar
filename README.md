@@ -8,9 +8,9 @@ MSc Advanced Computer Science, University of Leeds (Russell Group) · BTech CSE,
 
 ## About
 
-Software engineer focused on backend systems, distributed architectures, and infrastructure reliability. I build things that are observable, fault-tolerant, and designed to scale — from async API backends to multi-node monitoring platforms to retrieval-augmented AI systems.
+Software engineer focused on backend systems, distributed architectures, and infrastructure reliability. I build things that are observable, fault-tolerant, and designed to scale from async API backends to multi-node monitoring platforms to retrieval-augmented AI systems.
 
-Previously: eliminated cascading data integrity failures and reduced API latency ~40% in a production FastAPI + PostgreSQL environment. I care about correctness, clean system boundaries, and engineering that holds up under real load.
+Previously: eliminated cascading data integrity failures and reduced API latency 40% in a production FastAPI + PostgreSQL environment. I care about correctness, clean system boundaries, and engineering that holds up under real load.
 
 Open to backend, infrastructure, and platform engineering roles.
 
@@ -19,11 +19,11 @@ Open to backend, infrastructure, and platform engineering roles.
 ## Selected Projects
 
 ### [GhostMind](https://github.com/Kartavyasonar/ghostmind)
-Distributed LLM backend with multi-provider failover (OpenAI · Anthropic · Gemini · Groq), async retrieval pipeline, episodic memory system, and GraphRAG reasoning layer. Validated across 57 controlled sessions — response confidence improved from ~60% to ~83%, hallucination rate reduced from ~40% to ~17%.
+Distributed LLM backend with multi-provider failover (OpenAI · Anthropic · Gemini · Groq), async retrieval pipeline, episodic memory system, and GraphRAG reasoning layer. Validated across 57 controlled sessions response confidence improved from ~60% to ~83%, hallucination rate reduced from ~40% to ~17%.
 `Python` `FastAPI` `SQLAlchemy async` `PostgreSQL` `Docker` `NetworkX` `sentence-transformers`
 
 ### [NetPulse](https://github.com/Kartavyasonar/netpulse)
-Distributed network monitoring platform deployed across Oracle Cloud (Mumbai + Frankfurt). Concurrent ICMP probing engine built on raw sockets and asyncio — ARP scanning, traceroute analysis, anomaly detection, and local vs. global outage classification. Full Linux stack management: nginx · systemd · UFW · iptables · Let's Encrypt.
+Distributed network monitoring platform deployed across Oracle Cloud (Mumbai + Frankfurt). Concurrent ICMP probing engine built on raw sockets and asyncio ARP scanning, traceroute analysis, anomaly detection, and local vs. global outage classification. Full Linux stack management: nginx · systemd · UFW · iptables · Let's Encrypt.
 `Python` `FastAPI` `asyncio` `Scapy` `PostgreSQL` `Docker` `Oracle Cloud`
 
 ### [Serverless FaaS Benchmarking](https://github.com/Kartavyasonar/faas-benchmark)
