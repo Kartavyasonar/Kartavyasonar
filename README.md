@@ -1,139 +1,87 @@
-# Hi, I'm Kartavya 👋
+# Kartavya Sonar
 
-### Backend & Infrastructure Engineer | Kubernetes Contributor | Distributed Systems & AI Infrastructure
+**Backend & Infrastructure Engineer · Kubernetes Contributor · Distributed Systems**
 
-I build distributed backend systems, cloud-native infrastructure, and intelligent AI platforms focused on reliability, scalability, and real-world engineering tradeoffs.
-
-Currently exploring:
-
-* Kubernetes internals & infrastructure automation
-* Distributed systems & observability
-* Fault-tolerant AI infrastructure
-* Backend performance engineering
-* Retrieval & agentic architectures
+MSc Advanced Computer Science, University of Leeds (Russell Group) · BTech CSE, GPA 8.24
 
 ---
 
-## 🚀 Open Source
+## About
 
-### Kubernetes Contributor
+Backend and infrastructure engineer with hands-on experience in distributed systems, async architectures, and AI infrastructure. Contributing to **kubernetes/kubernetes** — currently working on unprivileged namespace support for kube-proxy nftables testing. Interested in Kubernetes internals, network reconciliation, node lifecycle, and cloud-native reliability engineering.
 
-Contributing to `kubernetes/kubernetes`.
+Previously: reduced API failure rate to zero and cut latency ~40% at production scale (FastAPI + PostgreSQL). Building systems that are observable, fault-tolerant, and designed to fail gracefully.
 
-* Opened PR #138993 introducing a `RunInUserNS()` helper enabling kube-proxy nftables tests inside unprivileged Linux user + network namespaces
-* Exploring node lifecycle, reconciliation patterns, networking, and infrastructure workflows
-* Active in Kubernetes issue discussions around declarative infrastructure operations
+Open to backend infrastructure, platform engineering, and distributed systems roles.
 
 ---
 
-## ⚙️ Featured Projects
+## Open Source
 
-### GhostMind — Distributed LLM Infrastructure & Agentic Research Backend
-
-**Tech:** Python, FastAPI, SQLAlchemy async, PostgreSQL, SQLite, Docker, React, NetworkX
-
-* Built a distributed multi-provider LLM backend with automatic failover across OpenAI, Anthropic, Gemini, and Groq
-* Engineered async retrieval and memory pipelines using episodic RL-inspired memory (MemRL + TD learning)
-* Implemented adaptive retrieval strategy selection and GraphRAG-based reasoning
-* Controlled 57-session evaluation demonstrated:
-
-  * confidence improvement from ~60% → ~83%
-  * hallucination reduction from ~40% → ~17%
-* Dockerised deployment with versioned REST APIs and environment-based configuration
+**kubernetes/kubernetes** — [PR #138993](https://github.com/kubernetes/kubernetes/pull/138993)
+Introduced `RunInUserNS()` helper enabling kube-proxy nftables unit tests to run in unprivileged Linux user + network namespaces. Reduces CI privilege requirements and improves test portability across constrained environments. Active in infrastructure and networking issue discussions.
 
 ---
 
-### NetPulse — Distributed Network Operations & Monitoring Platform
+## Selected Projects
 
-**Tech:** Python, FastAPI, asyncio, PostgreSQL, Scapy, Docker, Oracle Cloud VPS
+### [GhostMind](https://github.com/Kartavyasonar/ghostmind)
+Distributed LLM backend with multi-provider failover (OpenAI · Anthropic · Gemini · Groq), async retrieval pipeline, episodic memory system, and GraphRAG reasoning layer. Validated across 57 controlled sessions — response confidence improved from ~60% to ~83%, hallucination rate reduced from ~40% to ~17%.
+`Python` `FastAPI` `SQLAlchemy async` `PostgreSQL` `Docker` `NetworkX` `sentence-transformers`
 
-* Built a geographically distributed network monitoring platform across Oracle Cloud Mumbai + Frankfurt
-* Developed concurrent ICMP probing engine using raw sockets + asyncio
-* Implemented ARP discovery, traceroute path analysis, anomaly detection, and automated alerting
-* Architected failure classification capable of distinguishing local vs. global outages
-* Managed full Linux infrastructure stack:
+### [NetPulse](https://github.com/Kartavyasonar/netpulse)
+Distributed network monitoring platform deployed across Oracle Cloud Mumbai + Frankfurt. Concurrent ICMP probing engine using raw sockets and asyncio, with ARP scanning, traceroute path analysis, anomaly detection, and local vs. global outage classification. Managed full Linux stack: nginx · systemd · UFW · iptables · Let's Encrypt.
+`Python` `FastAPI` `asyncio` `Scapy` `PostgreSQL` `Docker` `Oracle Cloud`
 
-  * SSH hardening
-  * nginx reverse proxy
-  * systemd services
-  * UFW/iptables
-  * TLS with Let's Encrypt
+### [Serverless FaaS Benchmarking](https://github.com/Kartavyasonar/faas-benchmark)
+Comparative performance analysis of Azure Functions vs. OpenFaaS on Kubernetes (K3s). Benchmarked cold start latency, throughput under load, and horizontal scaling behavior across workload profiles using JMeter.
+`Kubernetes` `K3s` `OpenFaaS` `Helm` `Docker` `Python` `JMeter`
 
----
+### [AI Code Review](https://github.com/Kartavyasonar/ai-code-review)
+Multi-agent static analysis platform. LangGraph orchestration with ChromaDB semantic retrieval — vulnerability detection, performance analysis, structured reporting.
+`LangGraph` `ChromaDB` `Python`
 
-### Serverless FaaS Benchmarking
-
-**Tech:** Kubernetes (K3s), OpenFaaS, Azure Functions, Helm, Docker, Python, JMeter
-
-* Benchmarked Azure Functions vs OpenFaaS under ML inference workloads
-* Evaluated latency, throughput, cold-start behaviour, and scaling characteristics
-* Built reproducible cloud-native deployment pipelines using Helm + Docker
+### [Nyaya AI](https://github.com/Kartavyasonar/nyaya-ai)
+Multilingual legal rights assistant with hybrid RAG pipeline, WhatsApp integration, and legal document generation. Built for low-literacy and non-English users.
+`RAG` `BM25` `FAISS` `Python` `WhatsApp API`
 
 ---
 
-### AI-CODE-REVIEW
+## Technical Stack
 
-**Tech:** FastAPI, LangGraph, ChromaDB, React, Groq LLaMA 3
+**Languages:** Python · Go · TypeScript · SQL · Bash · C++
 
-* Multi-agent AI system for repository analysis and code reasoning
-* Semantic retrieval pipeline for vulnerability and performance analysis
-* Structured severity-based reporting grounded in retrieved repository context
+**Backend:** FastAPI · Node.js · asyncio · SQLAlchemy async · REST APIs
 
----
+**Infrastructure:** Kubernetes · Docker · Linux · nginx · systemd · CI/CD · GCP · Oracle Cloud
 
-## 🛠 Technical Areas
+**Networking:** TCP/IP · ICMP · ARP · BGP (FRRouting) · raw sockets · traceroute
 
-### Backend & Infrastructure
+**Databases:** PostgreSQL · MongoDB · SQLite · MySQL
 
-* FastAPI
-* Node.js / Express
-* PostgreSQL / SQLite / MongoDB
-* Docker & Docker Compose
-* Linux / nginx / systemd
-* CI/CD & cloud deployments
-
-### Distributed Systems & Networking
-
-* asyncio
-* Concurrent programming
-* Fault tolerance & failover
-* TCP/IP, ICMP, ARP
-* BGP (FRRouting)
-* Raw sockets & network diagnostics
-
-### AI Infrastructure
-
-* RAG Pipelines
-* Vector Retrieval
-* FAISS / BM25
-* LangGraph / LangChain
-* Embedding systems
-* Agentic architectures
+**AI Infrastructure:** RAG pipelines · FAISS · BM25 · sentence-transformers · LangChain · LangGraph · ChromaDB · agentic architectures
 
 ---
 
-## 📚 Research
+## Research & Conferences
 
-MSc Advanced Computer Science (Merit) — University of Leeds.
+- First-author NLP preprint under peer review — BERTopic topic modelling, emotion classification, retrieval systems, computational social science
+- ACL 2025 (virtual) · NeurIPS 2024 SoLaR Workshop · EMNLP 2024
 
-Research focused on:
-
-* NLP pipelines
-* computational social science
-* BERTopic topic modelling
-* emotion classification
-* retrieval systems
-* agentic AI architectures
-
-First-author NLP research preprint currently under peer review.
+605 LeetCode problems solved.
 
 ---
 
-## 🌐 Connect
+## Links
 
-* Portfolio: https://kartavyasonar.github.io/
-* LinkedIn: https://linkedin.com/in/kartavya-sonar23
+[Portfolio](https://kartavyasonar.github.io/) · [LinkedIn](https://linkedin.com/in/kartavya-sonar23) · [GitHub](https://github.com/Kartavyasonar)
 
 ---
 
-> Building scalable infrastructure and intelligent systems one layer at a time.
+**Pinned repo suggestions:** kubernetes fork → ghostmind → netpulse → faas-benchmark → ai-code-review → nyaya-ai
+
+**Profile tips:**
+- Bio: *Backend & Infrastructure Engineer · kubernetes/kubernetes contributor*
+- Add topic tags to each repo: `kubernetes` `distributed-systems` `async` `fastapi` `infrastructure`
+- Skip GitHub stats widgets — they dilute technical density
+- Add a short architecture diagram (even ASCII) to GhostMind and NetPulse READMEs
