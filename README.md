@@ -69,10 +69,10 @@ Building cloud-native infrastructure, distributed systems, and intelligent AI pl
 ---
 
 ## 📈 GitHub Stats
-
-![Kartavya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kartavyasonar\&show_icons=true\&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kartavyasonar\&show_icons=true\&theme=tokyonight)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=Kartavyasonar\&theme=tokyonight)
+
 
 ---
 
