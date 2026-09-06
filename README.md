@@ -146,19 +146,19 @@ InvokeCordon is a security scanner and runtime policy gateway designed to protec
 
 # ☸️ Kubernetes & Open Source
 
-### 🔹 [PR #138993 — Rootless Namespace Testing](https://github.com/kubernetes/kubernetes/pull/138993)
+### 🔹 [PR #138993 - Rootless Namespace Testing](https://github.com/kubernetes/kubernetes/pull/138993)
 
 Added `RunInUserNS()` to re-execute test binaries inside unprivileged Linux user and network namespaces, enabling rootless kube-proxy nftables testing.
 
 **Area:** `sig-network` · **Focus:** Linux namespaces · Rootless Kubernetes
 
-### 🔹 [PR #37058 — Prow CI Infrastructure](https://github.com/kubernetes/test-infra/pull/37058)
+### 🔹 [PR #37058 - Prow CI Infrastructure](https://github.com/kubernetes/test-infra/pull/37058)
 
 Added Prow presubmit CI jobs gated by custom build tags for namespace isolation tests.
 
 **Area:** `sig-testing` · **Focus:** CI/CD · Kubernetes Test Infrastructure
 
-### 🔹 [Issue #139170 — ConfigMap BinaryData](https://github.com/kubernetes/kubernetes/issues/139170)
+### 🔹 [Issue #139170 - ConfigMap BinaryData](https://github.com/kubernetes/kubernetes/issues/139170)
 
 Documented API behavior around `ConfigMap.BinaryData` propagation and validated the behavior with Kubernetes API reviewers.
 
@@ -169,7 +169,7 @@ Documented API behavior around `ConfigMap.BinaryData` propagation and validated 
 # 🚀 Engineering Work
 
 <details>
-<summary><b>⚡ PulseAPI — Distributed API Gateway</b></summary>
+<summary><b>⚡ PulseAPI - Distributed API Gateway</b></summary>
 
 ### Stack
 
@@ -203,7 +203,7 @@ Kafka Batch         : 500 records/sec
 ---
 
 <details>
-<summary><b>🧠 GhostMind — Self-Improving Research Agent</b></summary>
+<summary><b>🧠 GhostMind - Self-Improving Research Agent</b></summary>
 
 ### Stack
 
