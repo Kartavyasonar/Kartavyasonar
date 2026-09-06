@@ -1,57 +1,36 @@
-<!-- =========================
-     ANIMATED HEADER
-========================= -->
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:161B22,100:00ADD8&height=220&section=header&text=KARTAVYA%20SONAR&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Backend%20%7C%20Platform%20%7C%20Cloud-Native%20%7C%20AI%20Security&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 </p>
 
-<!-- =========================
-     TYPING ANIMATION
-========================= -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=00ADD8&center=true&vCenter=true&width=850&lines=Backend+%26+Platform+Engineer;Go+%7C+Python+%7C+Kubernetes+%7C+Distributed+Systems;Kubernetes+Open+Source+Contributor;Building+ToolGate+%E2%80%94+Security+for+AI+Agents;Designing+systems+that+scale%2C+fail+gracefully%2C+and+stay+observable" alt="Typing animation"/>
+</p>
 
 <p align="center">
   <a href="https://github.com/Kartavyasonar">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=00ADD8&center=true&vCenter=true&width=850&lines=Backend+%26+Platform+Engineer;Go+%7C+Python+%7C+Kubernetes+%7C+Distributed+Systems;Kubernetes+Open+Source+Contributor;Building+ToolGate+%E2%80%94+Security+for+AI+Agents;Designing+systems+that+scale%2C+fail+gracefully%2C+and+stay+observable" alt="Typing animation"/>
+    <img src="https://img.shields.io/badge/GitHub-Kartavyasonar-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/kartavya-sonar23">
+    <img src="https://img.shields.io/badge/LinkedIn-Kartavya%20Sonar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://kartavyasonar.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-Website-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="mailto:sonarkartavya@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
-<!-- =========================
-     SOCIAL / PROFILE BADGES
-========================= -->
-
 <p align="center">
-
-<a href="https://github.com/Kartavyasonar">
-<img src="https://img.shields.io/badge/GitHub-Kartavyasonar-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<a href="https://linkedin.com/in/kartavya-sonar23">
-<img src="https://img.shields.io/badge/LinkedIn-Kartavya%20Sonar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://kartavyasonar.github.io/">
-<img src="https://img.shields.io/badge/Portfolio-Website-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" />
-</a>
-
-<a href="mailto:sonarkartavya@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-</p>
-
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=Kartavyasonar&style=for-the-badge&color=00ADD8&label=PROFILE+VIEWS" />
-
-<a href="https://github.com/Kartavyasonar?tab=followers">
-<img src="https://img.shields.io/github/followers/Kartavyasonar?style=for-the-badge&logo=github&label=FOLLOWERS" />
-</a>
-
-<a href="https://github.com/Kartavyasonar?tab=repositories">
-<img src="https://img.shields.io/github/stars/Kartavyasonar?style=for-the-badge&logo=github&label=STARS" />
-</a>
-
+  <a href="https://github.com/Kartavyasonar?tab=followers">
+    <img src="https://img.shields.io/github/followers/Kartavyasonar?style=for-the-badge&logo=github&label=FOLLOWERS" />
+  </a>
+  <a href="https://github.com/Kartavyasonar?tab=repositories">
+    <img src="https://img.shields.io/github/stars/Kartavyasonar?style=for-the-badge&logo=github&label=STARS" />
+  </a>
+  <a href="https://github.com/Kartavyasonar">
+    <img src="https://komarev.com/ghpvc/?username=Kartavyasonar&style=for-the-badge&color=00ADD8&label=PROFILE+VIEWS" />
+  </a>
 </p>
 
 ---
@@ -82,26 +61,7 @@ It scans MCP tools for security risks and acts as a runtime JSON-RPC policy gate
 
 ### 🌱 Open Source
 
-Active contributor to:
-
-**[Kubernetes](https://github.com/kubernetes/kubernetes)**
-
-with work around rootless namespace testing, kube-proxy testing, Prow CI, and Kubernetes API behavior.
-
-### ⚡ Engineering Focus
-
-```text
-Distributed Systems
-        │
-        ├── Go
-        ├── Python
-        ├── Kubernetes
-        ├── PostgreSQL
-        ├── Redis
-        ├── Kafka
-        ├── Prometheus
-        └── OpenTelemetry
-```
+Active contributor to **[Kubernetes](https://github.com/kubernetes/kubernetes)** with work around rootless namespace testing, kube-proxy testing, Prow CI, and Kubernetes API behavior.
 
 ---
 
@@ -113,9 +73,11 @@ Distributed Systems
 <img src="https://img.shields.io/badge/ToolGate-MCP%20Security%20Gateway-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 </a>
 
-<img src="https://img.shields.io/badge/Language-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 
-<img src="https://img.shields.io/badge/Security-AI%20Agent%20Security-EF4444?style=for-the-badge&logo=shield&logoColor=white" />
+<img src="https://img.shields.io/badge/AI%20Security-EF4444?style=for-the-badge&logo=shield&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Open%20Source-181717?style=for-the-badge&logo=github&logoColor=white" />
 
 </p>
 
@@ -170,11 +132,11 @@ ToolGate is a security scanner and runtime policy gateway designed to protect AI
 | Capability | What it does |
 |---|---|
 | 🔍 Tool Scanner | Grades MCP tool inventories from 0–100 |
-| 🛡️ Policy Engine | Allow / deny / monitor `tools/call` requests |
+| 🛡️ Policy Engine | Allow / deny / monitor `tools/call` |
 | 🔐 Secret Redaction | Recursively removes sensitive values |
 | 🧾 Audit Logging | Concurrent-safe JSONL logging |
-| #️⃣ SHA-256 Hashing | Avoids storing raw request payloads |
-| 📊 Prometheus | Exposes runtime metrics |
+| #️⃣ SHA-256 | Avoids storing raw request payloads |
+| 📊 Prometheus | Runtime metrics at `/metrics` |
 | 🚨 Security Checks | Path traversal, shell injection, cloud metadata |
 | ⚡ Go | Lightweight concurrent proxy |
 
@@ -184,25 +146,23 @@ ToolGate is a security scanner and runtime policy gateway designed to protect AI
 
 # ☸️ Kubernetes & Open Source
 
-### Kubernetes Contributions
-
-#### [PR #138993](https://github.com/kubernetes/kubernetes/pull/138993)
-
-**Rootless namespace testing**
+### 🔹 [PR #138993 — Rootless Namespace Testing](https://github.com/kubernetes/kubernetes/pull/138993)
 
 Added `RunInUserNS()` to re-execute test binaries inside unprivileged Linux user and network namespaces, enabling rootless kube-proxy nftables testing.
 
-#### [PR #37058](https://github.com/kubernetes/test-infra/pull/37058)
+**Area:** `sig-network` · **Focus:** Linux namespaces · Rootless Kubernetes
 
-**Prow CI infrastructure**
+### 🔹 [PR #37058 — Prow CI Infrastructure](https://github.com/kubernetes/test-infra/pull/37058)
 
-Added presubmit CI jobs gated by custom build tags for namespace isolation tests.
+Added Prow presubmit CI jobs gated by custom build tags for namespace isolation tests.
 
-#### [Issue #139170](https://github.com/kubernetes/kubernetes/issues/139170)
+**Area:** `sig-testing` · **Focus:** CI/CD · Kubernetes Test Infrastructure
 
-**ConfigMap BinaryData behavior**
+### 🔹 [Issue #139170 — ConfigMap BinaryData](https://github.com/kubernetes/kubernetes/issues/139170)
 
 Documented API behavior around `ConfigMap.BinaryData` propagation and validated the behavior with Kubernetes API reviewers.
+
+**Area:** Kubernetes API · **Focus:** ConfigMap behavior
 
 ---
 
@@ -251,38 +211,7 @@ Kafka Batch         : 500 records/sec
 
 LLM-powered research system that learns from retrieval failures using episodic memory and TD learning without retraining model weights.
 
-### Architecture
-
-```text
-                    User Query
-                         │
-                         ▼
-                 ┌──────────────┐
-                 │ Query Engine │
-                 └──────┬───────┘
-                        │
-              ┌─────────┴─────────┐
-              ▼                   ▼
-        ┌───────────┐       ┌────────────┐
-        │   FAISS   │       │ Citation   │
-        │ Vector DB │       │   Graph    │
-        └─────┬─────┘       └─────┬──────┘
-              │                   │
-              └─────────┬─────────┘
-                        ▼
-                 ┌──────────────┐
-                 │   Agent      │
-                 │   Reasoning  │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │   Episodic   │
-                 │    Memory    │
-                 └──────────────┘
-```
-
-### Experimental Results
+### Results
 
 ```text
 Response confidence
@@ -304,33 +233,16 @@ Controlled sessions
 
 `Python` `LangGraph` `ChromaDB` `AST` `Radon` `SSE`
 
-Four specialized agents:
+Four specialized agents covering:
 
 ```text
-                    ┌─────────────┐
-                    │ Source Code │
-                    └──────┬──────┘
-                           │
-                     Python AST
-                           │
-                           ▼
-                 ┌──────────────────┐
-                 │ LangGraph Router │
-                 └────────┬─────────┘
-                          │
-        ┌─────────────────┼─────────────────┐
-        ▼                 ▼                 ▼
-     🐛 Bug           🔐 Security       ⚡ Performance
-        │                 │                 │
-        └─────────────────┼─────────────────┘
-                          ▼
-                       Quality
-                          │
-                          ▼
-                    Final Review
+🐛 Bug
+🔐 Security
+⚡ Performance
+✨ Quality
 ```
 
-Includes function-level AST chunking, static complexity analysis, specialized LLM agents, and real-time SSE progress streaming.
+Uses Python AST for function-level chunking, Radon for static complexity analysis, LangGraph for orchestration, and SSE for real-time progress streaming.
 
 </details>
 
@@ -387,13 +299,29 @@ Focus areas:
 
 ---
 
-# 📊 GitHub Analytics
+# 📊 GitHub Snapshot
 
 <p align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Kartavyasonar&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=00ADD8&icon_color=00ADD8&text_color=8B949E" />
+<a href="https://github.com/Kartavyasonar?tab=repositories">
+<img src="https://img.shields.io/badge/Repositories-View%20All-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kartavyasonar&layout=compact&langs_count=10&hide_border=true&bg_color=00000000&title_color=00ADD8&text_color=8B949E" />
+<a href="https://github.com/Kartavyasonar?tab=stars">
+<img src="https://img.shields.io/badge/Starred%20Projects-View-00ADD8?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://github.com/Kartavyasonar?tab=followers">
+<img src="https://img.shields.io/badge/Followers-View-2EA44F?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/github/commit-activity/y/Kartavyasonar/Kartavyasonar?style=for-the-badge&label=COMMITS%20THIS%20YEAR" />
+
+<img src="https://img.shields.io/github/last-commit/Kartavyasonar/Kartavyasonar?style=for-the-badge&label=LAST%20PROFILE%20UPDATE" />
 
 </p>
 
@@ -409,73 +337,107 @@ Focus areas:
 
 ---
 
-# 🏆 GitHub Achievements
+# 📈 GitHub Activity
+
+Your GitHub profile already provides the authoritative contribution graph.
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Kartavyasonar&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=2&column=4" />
+<a href="https://github.com/Kartavyasonar">
+<img src="https://img.shields.io/badge/View%20Full%20Contribution%20Graph-Open%20GitHub%20Profile-00ADD8?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="https://github.com/Kartavyasonar?tab=overview&from=2026-01-01&to=2026-12-31">
+<img src="https://img.shields.io/badge/Contribution%20History-View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 </p>
 
 ---
 
-# 📈 Contribution Activity
+# 🏆 Open Source Impact
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kartavyasonar&bg_color=00000000&color=00ADD8&line=00ADD8&point=FFFFFF&area=true&hide_border=true" width="100%" />
-
-</p>
-
----
-
-# 🐍 Contribution Snake
-
-<p align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kartavyasonar/Kartavyasonar/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kartavyasonar/Kartavyasonar/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Kartavyasonar/Kartavyasonar/output/github-contribution-grid-snake.svg">
-</picture>
-
-</p>
-
----
-
-# 📌 Featured Repositories
-
-<p align="center">
+<a href="https://github.com/Kartavyasonar/Kartavyasonar">
+<img src="https://img.shields.io/badge/Kubernetes-Contributor-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+</a>
 
 <a href="https://github.com/Kartavyasonar/toolgate">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Kartavyasonar&repo=toolgate&theme=transparent&hide_border=true&title_color=00ADD8&icon_color=00ADD8" />
+<img src="https://img.shields.io/badge/ToolGate-Building-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 </a>
 
-<a href="https://github.com/Kartavyasonar/PulseAPI">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Kartavyasonar&repo=PulseAPI&theme=transparent&hide_border=true&title_color=00ADD8&icon_color=00ADD8" />
+<a href="https://github.com/Kartavyasonar?tab=overview">
+<img src="https://img.shields.io/badge/Open%20Source-Active-2EA44F?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
 </a>
 
 </p>
 
 ---
 
-# 🧩 Engineering Principles
+# 📌 Featured Projects
 
-```text
-┌────────────────────────────────────────────────────┐
-│                                                    │
-│   Correctness  >  Cleverness                       │
-│                                                    │
-│   Observability  >  Guesswork                      │
-│                                                    │
-│   Measured Performance  >  Assumptions              │
-│                                                    │
-│   Simple Boundaries  >  Distributed Complexity     │
-│                                                    │
-│   Secure Defaults  >  Hope                         │
-│                                                    │
-└────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td width="50%">
+
+### 🛡️ ToolGate
+
+**MCP Security Gateway**
+
+Go · JSON-RPC · YAML Policies · Prometheus
+
+Security layer for AI agents and MCP servers.
+
+**[View Repository →](https://github.com/Kartavyasonar/toolgate)**
+
+</td>
+
+<td width="50%">
+
+### ⚡ PulseAPI
+
+**Distributed API Gateway**
+
+Node.js · Redis · Kafka · PostgreSQL
+
+High-concurrency API infrastructure with observability and resilience.
+
+**[View Repository →](https://github.com/Kartavyasonar)**
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🧠 GhostMind
+
+**Self-Improving Research Agent**
+
+Python · FAISS · NetworkX · GraphRAG
+
+Retrieval system using episodic memory and adaptive strategies.
+
+</td>
+
+<td width="50%">
+
+### 🤖 Multi-Agent Code Review
+
+**AI Code Analysis Platform**
+
+Python · LangGraph · ChromaDB · AST
+
+Specialized agents for bugs, security, quality and performance.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -491,31 +453,51 @@ Focus areas:
 
 ---
 
-# 🎯 Current Focus
+# 🧩 Engineering Principles
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Correctness-Cleverness-00ADD8?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/Observability-Guesswork-00ADD8?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/Measured%20Performance-Assumptions-00ADD8?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/Secure%20Defaults-Hope-EF4444?style=for-the-badge" />
+
+</p>
 
 ```text
-                    2026
-                     │
-       ┌─────────────┼─────────────┐
-       │             │             │
-       ▼             ▼             ▼
-   ToolGate      Kubernetes    Distributed
-   Security      Open Source    Systems
-       │             │             │
-       └─────────────┼─────────────┘
-                     │
-                     ▼
-              Platform Engineering
+┌──────────────────────────────────────────────────────┐
+│                                                      │
+│   Correctness       >       Cleverness               │
+│                                                      │
+│   Observability     >       Guesswork                │
+│                                                      │
+│   Measured Speed    >       Assumptions              │
+│                                                      │
+│   Simple Boundaries >       Complexity               │
+│                                                      │
+│   Secure Defaults   >       Hope                    │
+│                                                      │
+└──────────────────────────────────────────────────────┘
 ```
 
-### Building toward
+---
 
-- High-performance Go infrastructure
-- Cloud-native security
-- AI agent infrastructure
-- Kubernetes internals
-- Distributed systems
-- Production observability
+# 🎯 Current Focus
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Go-Backend%20Infrastructure-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Kubernetes-Open%20Source-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+
+<img src="https://img.shields.io/badge/AI-Agent%20Security-EF4444?style=for-the-badge&logo=shield&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Distributed-Systems-7C3AED?style=for-the-badge" />
+
+</p>
 
 ---
 
