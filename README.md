@@ -331,7 +331,7 @@ Focus areas:
 
 <p align="center">
 
-<img src="https://streak-stats.demolab.com?user=Kartavyasonar&hide_border=true&background=00000000&ring=00ADD8&fire=FF6B35&currStreakLabel=00ADD8&sideLabels=8B949E&dates=8B949E" />
+<img src="https://streak-stats.demolab.com?user=Kartavyasonar&hide_border=true&background=00000000&stroke=FFFFFF&ring=00ADD8&fire=FF6B35&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" />
 
 </p>
 
