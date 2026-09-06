@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=00ADD8&center=true&vCenter=true&width=850&lines=Backend+%26+Platform+Engineer;Go+%7C+Python+%7C+Kubernetes+%7C+Distributed+Systems;Kubernetes+Open+Source+Contributor;Building+ToolGate+%E2%80%94+Security+for+AI+Agents;Designing+systems+that+scale%2C+fail+gracefully%2C+and+stay+observable" alt="Typing animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=00ADD8&center=true&vCenter=true&width=850&lines=Backend+%26+Platform+Engineer;Go+%7C+Python+%7C+Kubernetes+%7C+Distributed+Systems;Kubernetes+Open+Source+Contributor;Building+InvokeCordon+%E2%80%94+Security+for+AI+Agents;Designing+systems+that+scale%2C+fail+gracefully%2C+and+stay+observable" alt="Typing animation"/>
 </p>
 
 <p align="center">
@@ -53,7 +53,7 @@ I care about **correctness, clean system boundaries, measurable performance, and
 
 ### 🔭 Currently Building
 
-**[ToolGate](https://github.com/Kartavyasonar/toolgate)**
+**[InvokeCordon](https://github.com/Kartavyasonar/InvokeCordon)**
 
 An open-source security gateway for MCP servers, written in Go.
 
@@ -65,12 +65,12 @@ Active contributor to **[Kubernetes](https://github.com/kubernetes/kubernetes)**
 
 ---
 
-# 🛡️ ToolGate
+# 🛡️ InvokeCordon
 
 <p align="center">
 
-<a href="https://github.com/Kartavyasonar/toolgate">
-<img src="https://img.shields.io/badge/ToolGate-MCP%20Security%20Gateway-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<a href="https://github.com/Kartavyasonar/InvokeCordon">
+<img src="https://img.shields.io/badge/InvokeCordon-MCP%20Security%20Gateway-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 </a>
 
 <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
@@ -83,7 +83,7 @@ Active contributor to **[Kubernetes](https://github.com/kubernetes/kubernetes)**
 
 > **What if an MCP tool description itself contains a malicious instruction?**
 
-ToolGate is a security scanner and runtime policy gateway designed to protect AI agents from:
+InvokeCordon is a security scanner and runtime policy gateway designed to protect AI agents from:
 
 - Tool poisoning
 - Prompt injection
@@ -103,7 +103,7 @@ ToolGate is a security scanner and runtime policy gateway designed to protect AI
                               │
                               ▼
                     ┌───────────────────┐
-                    │     TOOLGATE      │
+                    │     InvokeCordon      │
                     │   Security Proxy  │
                     └─────────┬─────────┘
                               │
@@ -140,7 +140,7 @@ ToolGate is a security scanner and runtime policy gateway designed to protect AI
 | 🚨 Security Checks | Path traversal, shell injection, cloud metadata |
 | ⚡ Go | Lightweight concurrent proxy |
 
-**Repository → [github.com/Kartavyasonar/toolgate](https://github.com/Kartavyasonar/toolgate)**
+**Repository → [github.com/Kartavyasonar/InvokeCordon](https://github.com/Kartavyasonar/InvokeCordon)**
 
 ---
 
@@ -367,8 +367,8 @@ Your GitHub profile already provides the authoritative contribution graph.
 <img src="https://img.shields.io/badge/Kubernetes-Contributor-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
 </a>
 
-<a href="https://github.com/Kartavyasonar/toolgate">
-<img src="https://img.shields.io/badge/ToolGate-Building-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<a href="https://github.com/Kartavyasonar/InvokeCordon">
+<img src="https://img.shields.io/badge/InvokeCordon-Building-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 </a>
 
 <a href="https://github.com/Kartavyasonar?tab=overview">
@@ -385,7 +385,7 @@ Your GitHub profile already provides the authoritative contribution graph.
 <tr>
 <td width="50%">
 
-### 🛡️ ToolGate
+### 🛡️ InvokeCordon
 
 **MCP Security Gateway**
 
@@ -393,7 +393,7 @@ Go · JSON-RPC · YAML Policies · Prometheus
 
 Security layer for AI agents and MCP servers.
 
-**[View Repository →](https://github.com/Kartavyasonar/toolgate)**
+**[View Repository →](https://github.com/Kartavyasonar/InvokeCordon)**
 
 </td>
 
