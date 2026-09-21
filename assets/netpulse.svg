@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300">
+<defs><filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1100" height="300" rx="16" fill="#0D1117" stroke="#30363D"/>
+<text x="35" y="38" fill="#F0F6FC" font-family="Inter,Arial" font-size="18" font-weight="700">NETPULSE · TOPOLOGY + ANOMALY SIGNAL</text>
+<g stroke="#30363D" stroke-width="2" fill="none"><path d="M130 145L315 90L500 145L690 90L900 145"/><path d="M130 145L315 210L500 145L690 210L900 145"/><path d="M315 90L690 210"/><path d="M315 210L690 90"/></g>
+<g font-family="JetBrains Mono,Consolas,monospace" text-anchor="middle">
+<g><circle cx="130" cy="145" r="25" fill="#161B22" stroke="#58A6FF"/><text x="130" y="149" fill="#58A6FF" font-size="9">VANTAGE</text></g>
+<g><circle cx="315" cy="90" r="25" fill="#161B22" stroke="#3FB950"/><text x="315" y="94" fill="#3FB950" font-size="9">NODE</text></g>
+<g><circle cx="500" cy="145" r="31" fill="#161B22" stroke="#00ADD8" stroke-width="3"/><text x="500" y="149" fill="#00ADD8" font-size="10">CORE</text></g>
+<g><circle cx="690" cy="90" r="25" fill="#161B22" stroke="#D29922"/><text x="690" y="94" fill="#D29922" font-size="9">NODE</text></g>
+<g><circle cx="900" cy="145" r="25" fill="#161B22" stroke="#F778BA"/><text x="900" y="149" fill="#F778BA" font-size="9">EDGE</text></g>
+</g>
+<circle r="5" fill="#00ADD8" filter="url(#gl)"><animateMotion dur="2.8s" repeatCount="indefinite" path="M130 145L315 90L500 145L690 90L900 145"/></circle>
+<circle cx="690" cy="210" r="7" fill="#FF6B35" opacity=".8"><animate attributeName="r" values="5;14;5" dur="1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;.15;.8" dur="1.3s" repeatCount="indefinite"/></circle>
+<text x="550" y="265" text-anchor="middle" fill="#8B949E" font-family="Inter,Arial" font-size="12">topology collection → correlation → statistical anomaly detection → live visualization</text>
+</svg>

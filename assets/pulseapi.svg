@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="330" viewBox="0 0 1100 330">
+<defs><linearGradient id="p" x1="0" x2="1"><stop stop-color="#00ADD8"/><stop offset="1" stop-color="#FF6B35"/></linearGradient><filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1100" height="330" rx="16" fill="#0D1117" stroke="#30363D"/>
+<text x="35" y="38" fill="#F0F6FC" font-family="Inter,Arial" font-size="18" font-weight="700">PULSEAPI · DISTRIBUTED REQUEST PATH</text>
+<g font-family="JetBrains Mono,Consolas,monospace" text-anchor="middle">
+<g fill="#161B22" stroke-width="2"><rect x="40" y="125" width="125" height="55" rx="8" stroke="#58A6FF"/><text x="102" y="158" fill="#58A6FF">CLIENT</text>
+<rect x="220" y="110" width="150" height="85" rx="9" stroke="#00ADD8"/><text x="295" y="143" fill="#00ADD8">GATEWAY</text><text x="295" y="163" fill="#8B949E" font-size="9">rate limit · circuit</text>
+<rect x="430" y="110" width="150" height="85" rx="9" stroke="#D29922"/><text x="505" y="143" fill="#D29922">CACHE / REDIS</text><text x="505" y="163" fill="#8B949E" font-size="9">fast path</text>
+<rect x="640" y="110" width="150" height="85" rx="9" stroke="#A371F7"/><text x="715" y="143" fill="#A371F7">KAFKA</text><text x="715" y="163" fill="#8B949E" font-size="9">async events</text>
+<rect x="850" y="110" width="180" height="85" rx="9" stroke="#3FB950"/><text x="940" y="143" fill="#3FB950">POSTGRES</text><text x="940" y="163" fill="#8B949E" font-size="9">durable state</text></g>
+<g fill="none" stroke="url(#p)" stroke-width="2" stroke-dasharray="11 9"><path d="M165 152H220"/><path d="M370 152H430"/><path d="M580 152H640"/><path d="M790 152H850"/></g>
+<circle r="5" fill="#fff" filter="url(#gl)"><animateMotion dur="3.5s" repeatCount="indefinite" path="M165 152H220 370 430 580 640 790 850"/></circle>
+</g>
+<g font-family="JetBrains Mono,Consolas,monospace"><text x="40" y="255" fill="#8B949E" font-size="11">BENCHMARK</text><text x="40" y="279" fill="#C9D1D9" font-size="14">207 req/s</text><text x="220" y="279" fill="#C9D1D9" font-size="14">p99 881 ms</text><text x="430" y="279" fill="#3FB950" font-size="14">0.0% errors</text><text x="640" y="279" fill="#8B949E" font-size="11">OBSERVABILITY</text><text x="640" y="301" fill="#C9D1D9" font-size="13">Prometheus · Grafana · k6</text></g>
+</svg>

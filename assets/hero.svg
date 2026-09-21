@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#070b10"/><stop offset=".55" stop-color="#0d1117"/><stop offset="1" stop-color="#06151a"/></linearGradient>
+ <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#00ADD8"/><stop offset=".5" stop-color="#58A6FF"/><stop offset="1" stop-color="#3FB950"/></linearGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#30363d" opacity=".25"/></pattern>
+</defs>
+<rect width="1200" height="360" rx="18" fill="url(#bg)"/><rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+<g fill="none" stroke="url(#cyan)" stroke-width="2" opacity=".55">
+ <path d="M-30 74H260L325 138H430" stroke-dasharray="14 12"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="3s" repeatCount="indefinite"/></path>
+ <path d="M1230 74H940L875 138H770" stroke-dasharray="14 12"><animate attributeName="stroke-dashoffset" from="0" to="-100" dur="3s" repeatCount="indefinite"/></path>
+ <path d="M-30 285H260L325 222H430" stroke-dasharray="14 12"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="3.7s" repeatCount="indefinite"/></path>
+ <path d="M1230 285H940L875 222H770" stroke-dasharray="14 12"><animate attributeName="stroke-dashoffset" from="0" to="-100" dur="3.7s" repeatCount="indefinite"/></path>
+</g>
+<g fill="#00ADD8" filter="url(#g)">
+ <circle cx="325" cy="138" r="4"><animate attributeName="r" values="3;9;3" dur="2s" repeatCount="indefinite"/></circle>
+ <circle cx="875" cy="138" r="4"><animate attributeName="r" values="3;9;3" dur="2s" begin=".7s" repeatCount="indefinite"/></circle>
+ <circle cx="325" cy="222" r="4"><animate attributeName="r" values="3;9;3" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
+ <circle cx="875" cy="222" r="4"><animate attributeName="r" values="3;9;3" dur="2s" begin="1.7s" repeatCount="indefinite"/></circle>
+</g>
+<g text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif">
+ <text x="600" y="128" fill="#F0F6FC" font-size="48" font-weight="800" letter-spacing="3">KARTAVYA SONAR</text>
+ <text x="600" y="165" fill="#8B949E" font-size="18" letter-spacing="2">SOFTWARE ENGINEER · BACKEND · SYSTEMS · APPLIED AI</text>
+ <rect x="375" y="186" width="450" height="2" fill="url(#cyan)"><animate attributeName="width" values="0;450;450;0" dur="5s" repeatCount="indefinite"/><animate attributeName="x" values="600;375;375;600" dur="5s" repeatCount="indefinite"/></rect>
+ <text x="600" y="225" fill="#C9D1D9" font-family="JetBrains Mono,Consolas,monospace" font-size="14">DESIGN → BUILD → MEASURE → OPERATE</text>
+</g>
+<g font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#8B949E">
+ <text x="30" y="30">/backend</text><text x="1090" y="30">/platform</text><text x="30" y="335">/agents</text><text x="1090" y="335">/infra</text>
+</g>
+<g transform="translate(600 250)">
+ <circle r="47" fill="none" stroke="#30363d"/><circle r="47" fill="none" stroke="#00ADD8" stroke-width="2" stroke-dasharray="45 250"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/></circle>
+ <circle r="27" fill="#161B22" stroke="#58A6FF"/><circle r="4" fill="#3FB950"><animate attributeName="r" values="3;7;3" dur="1.8s" repeatCount="indefinite"/></circle>
+ <circle cx="47" r="3" fill="#00ADD8"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/></circle>
+</g>
+<rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#30363d" stroke-width="2"/>
+</svg>
