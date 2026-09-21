@@ -103,7 +103,7 @@ InvokeCordon is a security scanner and runtime policy gateway designed to protec
                               │
                               ▼
                     ┌───────────────────┐
-                    │     InvokeCordon      │
+                    │     InvokeCordon  │
                     │   Security Proxy  │
                     └─────────┬─────────┘
                               │
