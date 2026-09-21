@@ -1,493 +1,534 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Kartavya Sonar animated engineering header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:161B22,100:00ADD8&height=220&section=header&text=KARTAVYA%20SONAR&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Backend%20%7C%20Platform%20%7C%20Cloud-Native%20%7C%20AI%20Security&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kartavyasonar"><img src="https://img.shields.io/badge/GitHub-Kartavyasonar-161B22?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/kartavya-sonar23"><img src="https://img.shields.io/badge/LinkedIn-Kartavya%20Sonar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:sonarkartavya@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://leetcode.com/u/sonarkartavya/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=111111"/></a>
-  <a href="https://codeforces.com/profile/Kartavyasonar"><img src="https://img.shields.io/badge/Codeforces-Profile-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"/></a>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=00ADD8&center=true&vCenter=true&width=850&lines=Backend+%26+Platform+Engineer;Go+%7C+Python+%7C+Kubernetes+%7C+Distributed+Systems;Kubernetes+Open+Source+Contributor;Building+InvokeCordon+%E2%80%94+Security+for+AI+Agents;Designing+systems+that+scale%2C+fail+gracefully%2C+and+stay+observable" alt="Typing animation"/>
 </p>
 
-# `01` · ABOUT
+<p align="center">
+  <a href="https://github.com/Kartavyasonar">
+    <img src="https://img.shields.io/badge/GitHub-Kartavyasonar-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/kartavya-sonar23">
+    <img src="https://img.shields.io/badge/LinkedIn-Kartavya%20Sonar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://kartavyasonar.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-Website-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="mailto:sonarkartavya@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
-I am a **Software Engineer** focused on backend systems, distributed infrastructure, cloud-native engineering and applied AI.
-
-I build systems where the interesting part is not just the UI — it is the machinery underneath:
-
-- asynchronous APIs and services
-- distributed state and caching
-- message-driven systems
-- Kubernetes and cloud infrastructure
-- AI agents and retrieval systems
-- MCP / AI-agent security
-- observability and performance benchmarking
-- developer tooling and open source
-
-**Engineering preference:** make the boundary explicit, measure the behaviour, expose the failure, then iterate.
-
-### Education
-
-| Degree | Institution | Result |
-|---|---|---|
-| MSc Advanced Computer Science | University of Leeds | Merit · 2024–2025 |
-| B.Tech Computer Science | GGSIPU / Delhi Technical Campus | 8.24 CGPA · 2021–2024 |
-| Diploma in Computer Technology | MSBTE | 87.09% · 2018–2021 |
+<p align="center">
+  <a href="https://github.com/Kartavyasonar?tab=followers">
+    <img src="https://img.shields.io/github/followers/Kartavyasonar?style=for-the-badge&logo=github&label=FOLLOWERS" />
+  </a>
+  <a href="https://github.com/Kartavyasonar?tab=repositories">
+    <img src="https://img.shields.io/github/stars/Kartavyasonar?style=for-the-badge&logo=github&label=STARS" />
+  </a>
+  <a href="https://github.com/Kartavyasonar">
+    <img src="https://komarev.com/ghpvc/?username=Kartavyasonar&style=for-the-badge&color=00ADD8&label=PROFILE+VIEWS" />
+  </a>
+</p>
 
 ---
 
-# `02` · CURRENT SYSTEM
+# 👨‍💻 About Me
 
-## 🛡️ InvokeCordon
+I build infrastructure that scales, fails gracefully, and can be observed.
 
-**MCP security scanner + runtime JSON-RPC gateway**
+My engineering focus is on:
 
-The project places a security boundary between an AI client and MCP servers.
+- High-throughput backend systems
+- Concurrent Go services
+- Distributed systems
+- Kubernetes and cloud-native infrastructure
+- API infrastructure
+- AI agent security
+- Observability and reliability engineering
 
-```text
-AI CLIENT
-   │
-   │ MCP / JSON-RPC
-   ▼
-┌──────────────────────────────┐
-│        INVOKECORDON          │
-│                              │
-│  scan → policy → redact      │
-│        → audit → metrics     │
-└──────────────┬───────────────┘
-               │
-               ▼
-           MCP SERVER
-               │
-               ▼
-          TOOL EXECUTION
-```
+I care about **correctness, clean system boundaries, measurable performance, and systems that survive real load.**
 
-### What the gateway is designed to address
+### 🔭 Currently Building
 
-`tool poisoning` · `prompt injection` · `secret leakage` · `unsafe tool execution` · `auditability`
+**[InvokeCordon](https://github.com/Kartavyasonar/InvokeCordon)**
+
+An open-source security gateway for MCP servers, written in Go.
+
+It scans MCP tools for security risks and acts as a runtime JSON-RPC policy gateway between AI agents and MCP servers.
+
+### 🌱 Open Source
+
+Active contributor to **[Kubernetes](https://github.com/kubernetes/kubernetes)** with work around rootless namespace testing, kube-proxy testing, Prow CI, and Kubernetes API behavior.
+
+---
+
+# 🛡️ InvokeCordon
 
 <p align="center">
-  <img src="./assets/mcp-security.svg" width="100%" alt="Animated InvokeCordon MCP security architecture"/>
+
+<a href="https://github.com/Kartavyasonar/InvokeCordon">
+<img src="https://img.shields.io/badge/InvokeCordon-MCP%20Security%20Gateway-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+</a>
+
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+
+<img src="https://img.shields.io/badge/AI%20Security-EF4444?style=for-the-badge&logo=shield&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Open%20Source-181717?style=for-the-badge&logo=github&logoColor=white" />
+
 </p>
 
-### Security pipeline
+> **What if an MCP tool description itself contains a malicious instruction?**
 
-| Stage | Function |
+InvokeCordon is a security scanner and runtime policy gateway designed to protect AI agents from:
+
+- Tool poisoning
+- Prompt injection
+- Over-privileged tools
+- Dangerous tool arguments
+- Secret leakage
+- Unsafe tool execution
+
+### Architecture
+
+```text
+                    ┌───────────────────┐
+                    │     AI AGENT      │
+                    └─────────┬─────────┘
+                              │
+                         JSON-RPC
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │     InvokeCordon      │
+                    │   Security Proxy  │
+                    └─────────┬─────────┘
+                              │
+              ┌───────────────┼───────────────┐
+              │               │               │
+              ▼               ▼               ▼
+        ┌──────────┐    ┌────────────┐   ┌────────────┐
+        │  Scan    │    │  Policy    │   │  Secrets   │
+        │  Tools   │    │  Engine    │   │ Redaction  │
+        └──────────┘    └────────────┘   └────────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │    Audit Log      │
+                    │     SHA-256       │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │    MCP SERVER     │
+                    └───────────────────┘
+```
+
+### Core Capabilities
+
+| Capability | What it does |
 |---|---|
-| **Scan** | Inspect tool definitions and request characteristics |
-| **Policy** | Apply execution rules before forwarding |
-| **Redact** | Prevent sensitive values from leaking into outputs/logs |
-| **Audit** | Record security-relevant execution events |
-| **Metrics** | Expose runtime behaviour through Prometheus |
-| **Gateway** | Maintain a controlled AI-client → MCP-server boundary |
+| 🔍 Tool Scanner | Grades MCP tool inventories from 0–100 |
+| 🛡️ Policy Engine | Allow / deny / monitor `tools/call` |
+| 🔐 Secret Redaction | Recursively removes sensitive values |
+| 🧾 Audit Logging | Concurrent-safe JSONL logging |
+| #️⃣ SHA-256 | Avoids storing raw request payloads |
+| 📊 Prometheus | Runtime metrics at `/metrics` |
+| 🚨 Security Checks | Path traversal, shell injection, cloud metadata |
+| ⚡ Go | Lightweight concurrent proxy |
 
-Repository: **https://github.com/Kartavyasonar/toolgate**
-
-> The repository currently contains the implementation under the `toolgate` name; the portfolio uses **InvokeCordon** as the project identity while the naming transition is being handled.
+**Repository → [github.com/Kartavyasonar/InvokeCordon](https://github.com/Kartavyasonar/InvokeCordon)**
 
 ---
 
-# `03` · SYSTEMS I HAVE BUILT
+# ☸️ Kubernetes & Open Source
 
-## ⚡ PulseAPI — Distributed API Gateway
+### 🔹 [PR #138993 - Rootless Namespace Testing](https://github.com/kubernetes/kubernetes/pull/138993)
 
-**Node.js · Redis · Kafka · PostgreSQL · Prometheus · Grafana · k6**
+Added `RunInUserNS()` to re-execute test binaries inside unprivileged Linux user and network namespaces, enabling rootless kube-proxy nftables testing.
+
+**Area:** `sig-network` · **Focus:** Linux namespaces · Rootless Kubernetes
+
+### 🔹 [PR #37058 - Prow CI Infrastructure](https://github.com/kubernetes/test-infra/pull/37058)
+
+Added Prow presubmit CI jobs gated by custom build tags for namespace isolation tests.
+
+**Area:** `sig-testing` · **Focus:** CI/CD · Kubernetes Test Infrastructure
+
+### 🔹 [Issue #139170 - ConfigMap BinaryData](https://github.com/kubernetes/kubernetes/issues/139170)
+
+Documented API behavior around `ConfigMap.BinaryData` propagation and validated the behavior with Kubernetes API reviewers.
+
+**Area:** Kubernetes API · **Focus:** ConfigMap behavior
+
+---
+
+# 🚀 Engineering Work
+
+<details>
+<summary><b>⚡ PulseAPI - Distributed API Gateway</b></summary>
+
+### Stack
+
+`Node.js` `Redis` `Kafka` `PostgreSQL` `Prometheus` `Grafana` `k6`
+
+Production-grade API gateway designed for high-concurrency traffic.
+
+### Engineering
+
+- Redis Lua scripts for atomic token bucket rate limiting
+- Sliding-window rate limiting
+- Distributed circuit breaker state
+- Kafka-based asynchronous logging
+- PostgreSQL batch writes
+- Automatic Grafana provisioning
+- Prometheus latency metrics
+- Event-loop monitoring
+
+### Load Test
+
+```text
+Virtual Users       : 200
+Throughput          : 207 req/s
+p99 Latency         : 881 ms
+Error Rate          : 0.0%
+Kafka Batch         : 500 records/sec
+```
+
+</details>
+
+---
+
+<details>
+<summary><b>🧠 GhostMind - Self-Improving Research Agent</b></summary>
+
+### Stack
+
+`Python` `FastAPI` `FAISS` `NetworkX` `GraphRAG`
+
+LLM-powered research system that learns from retrieval failures using episodic memory and TD learning without retraining model weights.
+
+### Results
+
+```text
+Response confidence
+~60%  ─────────────────►  ~83%
+
+Hallucination rate
+~40%  ─────────────────►  ~17%
+
+Controlled sessions
+57
+```
+
+</details>
+
+---
+
+<details>
+<summary><b>🤖 Multi-Agent Code Review Platform</b></summary>
+
+`Python` `LangGraph` `ChromaDB` `AST` `Radon` `SSE`
+
+Four specialized agents covering:
+
+```text
+🐛 Bug
+🔐 Security
+⚡ Performance
+✨ Quality
+```
+
+Uses Python AST for function-level chunking, Radon for static complexity analysis, LangGraph for orchestration, and SSE for real-time progress streaming.
+
+</details>
+
+---
+
+<details>
+<summary><b>☁️ FaaS Performance Benchmarking</b></summary>
+
+`Kubernetes` `K3s` `OpenFaaS` `JMeter` `Azure Functions`
+
+Benchmarked managed serverless infrastructure against self-hosted OpenFaaS on K3s.
+
+Focus areas:
+
+- Cold-start latency
+- Throughput
+- Concurrent execution
+- Error rates
+- Scaling predictability
+
+</details>
+
+---
+
+# 🧰 Tech Stack
 
 <p align="center">
-  <img src="./assets/pulseapi.svg" width="100%" alt="Animated PulseAPI distributed architecture"/>
-</p>
-
-### Runtime characteristics
-
-```text
-                 REQUEST
-                    │
-                    ▼
-              ┌──────────┐
-              │ GATEWAY  │
-              └────┬─────┘
-                   │
-          ┌────────┴────────┐
-          ▼                 ▼
-       REDIS              KAFKA
-     fast state         async work
-          │                 │
-          └────────┬────────┘
-                   ▼
-               POSTGRES
-```
-
-### Measured benchmark
-
-| Metric | Result |
-|---|---:|
-| Throughput | **207 req/s** |
-| p99 latency | **881 ms** |
-| Error rate | **0.0%** |
-
----
-
-## 🧠 GhostMind — Self-Evolving Research Agent
-
-**Python · FastAPI · FAISS · NetworkX · React/Vite · SQLite**
-
-GhostMind combines multiple retrieval strategies with episodic memory and strategy selection.
-
-<p align="center">
-  <img src="./assets/ghostmind.svg" width="100%" alt="Animated GhostMind retrieval and memory architecture"/>
-</p>
-
-### Retrieval modes
-
-```text
-SEMANTIC
-HYBRID
-GRAPH
-AGGRESSIVE REWRITE
-```
-
-The memory layer connects:
-
-```text
-intent → strategy → outcome
-```
-
-This gives the agent a mechanism for using previous retrieval experience when selecting a strategy for later queries.
-
----
-
-## 🤖 AI Code Review
-
-**LangGraph · ChromaDB · Groq LLaMA 3.3 70B · FastAPI · React/Vite · Python AST · Radon · SSE · Docker**
-
-A multi-agent code analysis pipeline.
-
-```text
-REPOSITORY
-    │
-    ├── AST analysis
-    ├── complexity analysis
-    └── semantic chunking
-            │
-            ▼
-       CHROMADB
-            │
-            ▼
- ┌───────────────────────────────┐
- │        SPECIALISTS            │
- │                               │
- │  BUGS · SECURITY · QUALITY    │
- │          PERFORMANCE          │
- └───────────────┬───────────────┘
-                 ▼
-            SYNTHESIZER
-                 │
-                 ▼
-        STRUCTURED REVIEW
-```
-
-### Why it is interesting
-
-The system combines **static analysis + retrieval + multiple specialist agents + synthesis**, rather than asking one LLM to perform every review task.
-
-Repository: **https://github.com/Kartavyasonar/AI-CODE-REVIEW**
-
-Live frontend: **https://ai-code-review-xi-one.vercel.app/**
-
----
-
-## 🌐 NetPulse — Network Operations Platform
-
-**FastAPI · PostgreSQL · NetworkX · Scapy · Nmap · React · Recharts · Docker**
-
-<p align="center">
-  <img src="./assets/netpulse.svg" width="100%" alt="Animated NetPulse network topology"/>
-</p>
-
-### Pipeline
-
-```text
-MULTIPLE VANTAGE POINTS
-          │
-          ▼
-   TOPOLOGY COLLECTION
-          │
-          ▼
-      CORRELATION
-          │
-          ▼
- STATISTICAL ANOMALY DETECTION
-          │
-          ▼
-       LIVE GRAPH
-```
-
-Repository: **https://github.com/Kartavyasonar/NetPulse**
-
----
-
-# `04` · APPLIED AI
-
-## ⚖️ NYAYA AI
-
-Multilingual legal-information assistant using hybrid retrieval.
-
-```text
-QUERY
-  │
-  ├───────────────┐
-  ▼               ▼
-FAISS            BM25
-dense            sparse
-  │               │
-  └───────┬───────┘
-          ▼
-       RERANK
-          │
-          ▼
-       LLM
-          │
-          ▼
-      RESPONSE
-```
-
-Core technologies:
-
-`FAISS` · `BM25` · reranking · Groq LLaMA · MongoDB Atlas · FastAPI · Twilio
-
----
-
-## ✈️ WanderPlan
-
-AI-assisted travel planning platform.
-
-**React · Vite · Node/Express · PostgreSQL · Leaflet · OpenStreetMap**
-
-Features include:
-
-`maps` · `weather` · `cost estimation` · `packing lists` · `voice narration` · `calendar export` · `trip history` · `PWA`
-
-Live: **https://wander-plan-orcin.vercel.app/**
-
-Repository: **https://github.com/Kartavyasonar/WanderPlan**
-
----
-
-# `05` · PERFORMANCE / INFRASTRUCTURE
-
-## ☁️ Azure Functions vs OpenFaaS on K3s
-
-**Docker · Helm · K3s · Kubernetes · Apache JMeter**
-
-Compared identical Python inference endpoints across managed and self-hosted FaaS environments.
-
-Measured:
-
-```text
-LATENCY
-THROUGHPUT
-COLD START
-CONCURRENCY
-SCALABILITY
-ERROR RATE
-```
-
-Observed under the tested workload:
-
-- 302 total requests
-- 0.00% error rate
-- lightweight workloads showed lower latency on Azure Functions
-- OpenFaaS/K3s provided greater infrastructure control and predictability under sustained concurrency
-
-The goal was not simply to ask *which platform is faster*, but to understand the **engineering trade-off between managed simplicity and infrastructure control**.
-
----
-
-# `06` · OPEN SOURCE
-
-## ☸️ Kubernetes
-
-### PR #138993
-
-**RunInUserNS() support for rootless user/network namespace testing in kube-proxy nftables**
-
-Focus:
-
-`Linux namespaces` · `rootless testing` · `kube-proxy` · `networking`
-
-→ https://github.com/kubernetes/kubernetes/pull/138993
-
-### PR #37058
-
-**Prow presubmit CI jobs gated by custom build tags for namespace-isolation tests**
-
-Focus:
-
-`Prow` · `CI/CD` · `test infrastructure` · `namespace isolation`
-
-→ https://github.com/kubernetes/test-infra/pull/37058
-
-### Issue #139170
-
-**ConfigMap BinaryData API behaviour/documentation**
-
-Focus:
-
-`Kubernetes API` · `ConfigMap` · `API behaviour`
-
-→ https://github.com/kubernetes/kubernetes/issues/139170
-
----
-
-# `07` · RESEARCH
-
-## Mapping Public Emotion in Digital Governance
-
-**MSc research — UK immigration discourse on Reddit**
-
-```text
-1,098 Reddit posts
-       │
-       ▼
-   NLP processing
-       │
-       ├── BERTopic
-       ├── transformer emotion analysis
-       ├── semantic matching
-       └── legislation mapping
-       │
-       ▼
- discourse / emotion analysis
-```
-
-Research areas:
-
-`NLP` · `topic modelling` · `emotion analysis` · `digital governance` · `semantic matching`
-
-Publication:
-
-**Mapping Public Emotion in Digital Governance: A Comparative NLP Analysis of UK Immigration Discourse on Reddit**
-
----
-
-# `08` · ENGINEERING STACK
-
-<p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="Animated engineering stack"/>
+  <img src="https://skillicons.dev/icons?i=go,python,ts,cpp,bash,postgres,redis,mongodb,kafka,kubernetes,docker,linux,git,github,githubactions,nginx,grafana,prometheus,fastapi,nodejs&perline=7" />
 </p>
 
 ### Languages
 
-`Python` · `Go` · `JavaScript` · `TypeScript` · `Java` · `C++` · `SQL`
+`Go` `Python` `TypeScript` `SQL` `Bash` `C++`
 
 ### Backend
 
-`FastAPI` · `Node.js` · REST APIs · async Python · microservices · JSON-RPC
+`FastAPI` `Node.js` `gRPC` `REST` `JSON-RPC` `WebSockets`
 
-### Distributed Systems
+### Infrastructure
 
-`Kafka` · `Redis` · `PostgreSQL` · Kubernetes · Docker
+`Kubernetes` `Docker` `Linux` `Helm` `GitHub Actions` `nginx`
 
-### AI / Retrieval
+### Data & Messaging
 
-`LLMs` · `RAG` · `FAISS` · `ChromaDB` · embeddings · `LangGraph` · `NetworkX` · Transformers
-
-### Cloud / Infrastructure
-
-`AWS` · `GCP` · `Kubernetes` · `Docker` · `Linux` · `Nginx` · GitHub Actions
+`PostgreSQL` `Redis` `Kafka` `MongoDB` `SQLite`
 
 ### Observability
 
-`Prometheus` · `Grafana` · `k6`
+`Prometheus` `Grafana` `OpenTelemetry` `k6`
+
+### AI & Retrieval
+
+`LangGraph` `FAISS` `ChromaDB` `HuggingFace` `NetworkX` `GraphRAG`
 
 ---
 
-# `09` · GITHUB
+# 📊 GitHub Snapshot
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kartavyasonar&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kartavyasonar&layout=compact&theme=github_dark&hide_border=true" height="180"/>
+
+<a href="https://github.com/Kartavyasonar?tab=repositories">
+<img src="https://img.shields.io/badge/Repositories-View%20All-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://github.com/Kartavyasonar?tab=stars">
+<img src="https://img.shields.io/badge/Starred%20Projects-View-00ADD8?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://github.com/Kartavyasonar?tab=followers">
+<img src="https://img.shields.io/badge/Followers-View-2EA44F?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Kartavyasonar&hide_border=true&background=00000000&ring=00ADD8&fire=FF6B35&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" width="78%" alt="GitHub streak"/>
-</p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kartavyasonar&bg_color=0D1117&color=C9D1D9&line=00ADD8&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Activity" width="96%" alt="GitHub contribution activity"/>
+<img src="https://img.shields.io/github/commit-activity/y/Kartavyasonar/Kartavyasonar?style=for-the-badge&label=COMMITS%20THIS%20YEAR" />
+
+<img src="https://img.shields.io/github/last-commit/Kartavyasonar/Kartavyasonar?style=for-the-badge&label=LAST%20PROFILE%20UPDATE" />
+
 </p>
 
 ---
 
-# `10` · ENGINEERING PRINCIPLES
+# 🔥 Contribution Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=Kartavyasonar&hide_border=true&background=00000000&stroke=FFFFFF&ring=00ADD8&fire=FF6B35&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" />
+
+</p>
+
+---
+
+# 📈 GitHub Activity
+
+Your GitHub profile already provides the authoritative contribution graph.
+
+<p align="center">
+
+<a href="https://github.com/Kartavyasonar">
+<img src="https://img.shields.io/badge/View%20Full%20Contribution%20Graph-Open%20GitHub%20Profile-00ADD8?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="https://github.com/Kartavyasonar?tab=overview&from=2026-01-01&to=2026-12-31">
+<img src="https://img.shields.io/badge/Contribution%20History-View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</p>
+
+---
+
+# 🏆 Open Source Impact
+
+<p align="center">
+
+<a href="https://github.com/Kartavyasonar/Kartavyasonar">
+<img src="https://img.shields.io/badge/Kubernetes-Contributor-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+</a>
+
+<a href="https://github.com/Kartavyasonar/InvokeCordon">
+<img src="https://img.shields.io/badge/InvokeCordon-Building-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+</a>
+
+<a href="https://github.com/Kartavyasonar?tab=overview">
+<img src="https://img.shields.io/badge/Open%20Source-Active-2EA44F?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+</a>
+
+</p>
+
+---
+
+# 📌 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🛡️ InvokeCordon
+
+**MCP Security Gateway**
+
+Go · JSON-RPC · YAML Policies · Prometheus
+
+Security layer for AI agents and MCP servers.
+
+**[View Repository →](https://github.com/Kartavyasonar/InvokeCordon)**
+
+</td>
+
+<td width="50%">
+
+### ⚡ PulseAPI
+
+**Distributed API Gateway**
+
+Node.js · Redis · Kafka · PostgreSQL
+
+High-concurrency API infrastructure with observability and resilience.
+
+**[View Repository →](https://github.com/Kartavyasonar)**
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🧠 GhostMind
+
+**Self-Improving Research Agent**
+
+Python · FAISS · NetworkX · GraphRAG
+
+Retrieval system using episodic memory and adaptive strategies.
+
+</td>
+
+<td width="50%">
+
+### 🤖 Multi-Agent Code Review
+
+**AI Code Analysis Platform**
+
+Python · LangGraph · ChromaDB · AST
+
+Specialized agents for bugs, security, quality and performance.
+
+</td>
+</tr>
+</table>
+
+---
+
+# 💻 Problem Solving
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/600%2B-LeetCode%20Problems-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Focus-Graphs%20%7C%20Trees%20%7C%20Concurrency-00ADD8?style=for-the-badge" />
+
+</p>
+
+---
+
+# 🧩 Engineering Principles
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Correctness-Cleverness-00ADD8?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/Observability-Guesswork-00ADD8?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/Measured%20Performance-Assumptions-00ADD8?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/Secure%20Defaults-Hope-EF4444?style=for-the-badge" />
+
+</p>
 
 ```text
-01  Measure before optimizing.
-
-02  Keep system boundaries explicit.
-
-03  Prefer simple primitives when they are enough.
-
-04  Make failure observable.
-
-05  Treat security as part of architecture.
-
-06  Benchmark the behaviour you claim.
-
-07  Automate repetitive operational work.
-
-08  Design for debugging — not only the happy path.
+┌──────────────────────────────────────────────────────┐
+│                                                      │
+│   Correctness       >       Cleverness               │
+│                                                      │
+│   Observability     >       Guesswork                │
+│                                                      │
+│   Measured Speed    >       Assumptions              │
+│                                                      │
+│   Simple Boundaries >       Complexity               │
+│                                                      │
+│   Secure Defaults   >       Hope                    │
+│                                                      │
+└──────────────────────────────────────────────────────┘
 ```
 
 ---
 
-# `11` · CURRENT FOCUS
+# 🎯 Current Focus
 
-```text
-BACKEND
-   │
-   ├── distributed APIs
-   ├── asynchronous services
-   ├── databases / caching
-   │
-   ▼
-CLOUD-NATIVE
-   │
-   ├── Kubernetes
-   ├── containers
-   ├── observability
-   │
-   ▼
-APPLIED AI
-   │
-   ├── agents
-   ├── retrieval
-   ├── memory
-   │
-   ▼
-AI SECURITY
-   │
-   ├── MCP
-   ├── tool security
-   ├── policy enforcement
-   └── auditing
-```
+<p align="center">
+
+<img src="https://img.shields.io/badge/Go-Backend%20Infrastructure-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Kubernetes-Open%20Source-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+
+<img src="https://img.shields.io/badge/AI-Agent%20Security-EF4444?style=for-the-badge&logo=shield&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Distributed-Systems-7C3AED?style=for-the-badge" />
+
+</p>
 
 ---
 
-# `12` · CONNECT
+# 📫 Connect
 
 <p align="center">
-  <a href="https://github.com/Kartavyasonar">GitHub</a> ·
-  <a href="https://linkedin.com/in/kartavya-sonar23">LinkedIn</a> ·
-  <a href="mailto:sonarkartavya@gmail.com">Email</a> ·
-  <a href="https://leetcode.com/u/sonarkartavya/">LeetCode</a> ·
-  <a href="https://codeforces.com/profile/Kartavyasonar">Codeforces</a> ·
-  <a href="https://drive.google.com/file/d/1-AGCOuY3D7ZFyIm9LYpPwO-6G8LcLSHN/view?usp=sharing">CV</a>
+
+<a href="https://github.com/Kartavyasonar">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://linkedin.com/in/kartavya-sonar23">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://kartavyasonar.github.io/">
+<img src="https://img.shields.io/badge/Portfolio-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
+
+<a href="mailto:sonarkartavya@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+</p>
+
+---
+
+<p align="center">
+  <b>Build systems that scale. Secure systems that matter.</b>
 </p>
 
 <p align="center">
-  <sub>Build systems. Instrument them. Break them. Understand them. Improve them.</sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ADD8,50:161B22,100:0D1117&height=120&section=footer" width="100%"/>
 </p>
