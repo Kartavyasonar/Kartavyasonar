@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Kartavya Sonar — Software Engineer</title>
+<desc id="desc">An animated systems-inspired developer profile header.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset=".55" stop-color="#111827"/><stop offset="1" stop-color="#071a13"/></linearGradient>
+<linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58a6ff"><animate attributeName="stop-color" values="#58a6ff;#3fb950;#d29922;#58a6ff" dur="7s" repeatCount="indefinite"/></stop><stop offset=".5" stop-color="#a371f7"><animate attributeName="stop-color" values="#a371f7;#58a6ff;#3fb950;#a371f7" dur="7s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#3fb950"><animate attributeName="stop-color" values="#3fb950;#d29922;#58a6ff;#3fb950" dur="7s" repeatCount="indefinite"/></stop></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#30363d" stroke-width="1" opacity=".32"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="clip"><rect width="1200" height="320" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="320" fill="url(#bg)"/><rect width="1200" height="320" fill="url(#grid)"/>
+<g fill="none" stroke="url(#signal)" stroke-width="2" opacity=".62">
+<path d="M-100 78H250L320 148H470" stroke-dasharray="18 14"><animate attributeName="stroke-dashoffset" from="128" to="0" dur="4s" repeatCount="indefinite"/></path>
+<path d="M730 148H880L950 78H1300" stroke-dasharray="18 14"><animate attributeName="stroke-dashoffset" from="0" to="-128" dur="4s" repeatCount="indefinite"/></path>
+<path d="M-100 250H350L410 205H500" stroke-dasharray="10 18"><animate attributeName="stroke-dashoffset" from="112" to="0" dur="5s" repeatCount="indefinite"/></path>
+<path d="M700 205H790L850 250H1300" stroke-dasharray="10 18"><animate attributeName="stroke-dashoffset" from="0" to="-112" dur="5s" repeatCount="indefinite"/></path>
+</g>
+<g fill="#58a6ff" filter="url(#glow)">
+<circle cx="320" cy="148" r="4"><animate attributeName="r" values="3;8;3" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.35;1" dur="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="880" cy="148" r="4"><animate attributeName="r" values="3;8;3" dur="2.8s" begin=".7s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.35;1" dur="2.8s" begin=".7s" repeatCount="indefinite"/></circle>
+<circle cx="410" cy="205" r="4"><animate attributeName="fill" values="#58a6ff;#3fb950;#58a6ff" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="790" cy="205" r="4"><animate attributeName="fill" values="#3fb950;#d29922;#3fb950" dur="4s" repeatCount="indefinite"/></circle>
+</g>
+<g text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="600" y="116" fill="#f0f6fc" font-size="50" font-weight="750">KARTAVYA SONAR</text>
+<rect x="350" y="142" width="500" height="2" fill="url(#signal)"><animate attributeName="width" values="0;500;500" dur="2.4s" repeatCount="indefinite"/><animate attributeName="x" values="600;350;350" dur="2.4s" repeatCount="indefinite"/></rect>
+<text x="600" y="180" fill="#c9d1d9" font-size="19">SOFTWARE ENGINEER  |  BACKEND · SYSTEMS · APPLIED AI</text>
+<text x="600" y="236" fill="url(#signal)" font-family="JetBrains Mono,Consolas,monospace" font-size="18" font-weight="600">[ DESIGN ]  -&gt;  [ IMPLEMENT ]  -&gt;  [ MEASURE ]  -&gt;  [ OPERATE ]</text>
+</g>
+<g fill="#8b949e" font-family="JetBrains Mono,Consolas,monospace" font-size="13" opacity=".8">
+<text x="32" y="35">01 / BACKEND</text><text x="1028" y="35">02 / SYSTEMS</text><text x="32" y="295">03 / AGENTS</text><text x="1038" y="295">04 / INFRA</text>
+</g>
+</g>
+<rect x="1" y="1" width="1198" height="318" rx="15" fill="none" stroke="#30363d" stroke-width="2"/>
+<rect x="1.5" y="1.5" width="1197" height="317" rx="14.5" fill="none" stroke="#58a6ff" stroke-width="3" stroke-dasharray="220 2810" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="-3030" dur="9s" repeatCount="indefinite"/></rect>
+</svg>
